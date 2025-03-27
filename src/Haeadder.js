@@ -1,10 +1,11 @@
-import React, { use } from "react";
+import React from "react"; // Ensure only necessary imports are present
 
-function Haeadder({ title }) {
+function Header({ title }) {
   return (
-    <main>
+    <header>
       <h1>{title}</h1>
-    </main>
+    </header>
   );
 }
-export default Haeadder;
+
+export default Header;
